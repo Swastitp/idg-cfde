@@ -101,7 +101,7 @@
 | expression | id | TCRD identifier for expression table | int(11) |
 | expression | etype | Foreign key to column name in table expression_type. | varchar(255) |
 | expression | protein_id | Foreign key to column id in table protein. | int(11) |
-| expression | source_id |  | varchar(20) |
+| expression | source_id | ? | varchar(20) |
 | expression | tissue | Tissue where expression was measured | varchar(255) |
 | expression | tissue_id | Foreign key to column id in table tissue. | int(11) |
 | expression | qual_value | Qualitative level of expression | enum('Not detected','Low','Medium','High') |
@@ -230,7 +230,7 @@
 | mpo | def | MPO term definition | text |
 | ncats_d2da | ncats_disease_id | TCRD Identifier for ncats_disease | int(10) unsigned |
 | ncats_d2da | disease_assoc_id | Disease association ID | int(11) |
-| ncats_d2da | direct |  | tinyint(1) |
+| ncats_d2da | direct | ? | tinyint(1) |
 | ncats_dataSource | dataSource | TCRD identifier and Primary key | varchar(50) |
 | ncats_dataSource | dataSourceDescription | Description of data source | varchar(512) |
 | ncats_dataSource | url | URL for ncats_dataSource | varchar(128) |
